@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Account & Data Deletion - Isthiri ThaTha</title>
+  <style>
+    :root {
+      --primary: #059669;
+      --primary-dark: #047857;
+      --danger: #dc2626;
+      --danger-light: #fef2f2;
+      --text-main: #0f172a;
+      --text-muted: #64748b;
+      --bg: #f8fafc;
+      --card-bg: #ffffff;
+      --border: #e2e8f0;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      color: var(--text-main);
+      background-color: var(--bg);
+      padding: 30px 16px;
+    }
+    .container {
+      max-width: 760px;
+      margin: 0 auto;
+      background: var(--card-bg);
+      border-radius: 14px;
+      padding: 36px 32px;
+      border: 1px solid var(--border);
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+    }
+    .nav-bar {
+      display: flex;
+      gap: 16px;
+      margin-bottom: 24px;
+      font-size: 14px;
+    }
+    .nav-bar a {
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .badge {
+      display: inline-block;
+      background: var(--danger-light);
+      color: var(--danger);
+      padding: 4px 12px;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 700;
+      margin-bottom: 14px;
+    }
+    h1 {
+      font-size: 26px;
+      font-weight: 800;
+      color: var(--text-main);
+      margin-bottom: 12px;
+    }
+    h2 {
+      font-size: 19px;
+      font-weight: 700;
+      color: var(--text-main);
+      margin-top: 28px;
+      margin-bottom: 10px;
+      border-bottom: 1.5px solid #f1f5f9;
+      padding-bottom: 6px;
+    }
+    p, li {
+      color: #334155;
+      font-size: 15px;
+      margin-bottom: 8px;
+    }
+    ol, ul {
+      padding-left: 22px;
+      margin-bottom: 16px;
+    }
+    li {
+      margin-bottom: 6px;
+    }
+    .action-card {
+      background: #f8fafc;
+      border: 1.5px dashed var(--primary);
+      padding: 24px;
+      border-radius: 12px;
+      margin: 24px 0;
+      text-align: center;
+    }
+    .btn-delete {
+      display: inline-block;
+      background: var(--danger);
+      color: white;
+      font-weight: 700;
+      font-size: 15px;
+      padding: 14px 28px;
+      border-radius: 8px;
+      text-decoration: none;
+      box-shadow: 0 4px 12px rgba(220, 38, 38, 0.25);
+      transition: background 0.2s ease;
+      margin-top: 10px;
+    }
+    .btn-delete:hover {
+      background: #b91c1c;
+    }
+    .info-box {
+      background: #eff6ff;
+      border-left: 4px solid #3b82f6;
+      padding: 14px 18px;
+      border-radius: 6px;
+      margin: 18px 0;
+      font-size: 14px;
+      color: #1e40af;
+    }
+    .contact-box {
+      background: #f1f5f9;
+      padding: 18px;
+      border-radius: 10px;
+      margin-top: 28px;
+      border-left: 4px solid var(--primary);
+      font-size: 14px;
+    }
+    .contact-box a {
+      color: var(--primary);
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="nav-bar">
+      <a href="index.html">← Home</a>
+      <a href="privacy.html">Privacy Policy</a>
+    </div>
+
+    <div class="badge">User Rights & Compliance</div>
+    <h1>Isthiri ThaTha - Account & Data Deletion</h1>
+    <p>
+      At <strong>Isthiri ThaTha</strong> (Package: <code>com.isthirithatha</code>), you have the right to request the permanent deletion of your account and all associated personal data at any time, without needing to reinstall or keep the mobile application.
+    </p>
+
+    <h2>1. How to Request Account Deletion</h2>
+    <p>You can initiate an account deletion request using either of the following methods:</p>
+    <ol>
+      <li><strong>Direct Email Request:</strong> Click the button below to email our support team.</li>
+      <li><strong>In-App Request:</strong> Open the Isthiri ThaTha app ➔ Go to <strong>Profile</strong> or <strong>Settings</strong> ➔ Tap <strong>Request Account Deletion</strong>.</li>
+    </ol>
+
+    <div class="action-card">
+      <p style="font-weight: 600; margin-bottom: 8px; color: var(--text-main);">
+        Ready to delete your account?
+      </p>
+      <p style="font-size: 13px; color: var(--text-muted); margin-bottom: 12px;">
+        Click below to compose an automated deletion email from your email client.
+      </p>
+      <a 
+        href="mailto:isthirithatha11@gmail.com?subject=Isthiri%20ThaTha%20Account%20Deletion%20Request&body=Hello%20Isthiri%20ThaTha%20Support%2C%0A%0APlease%20permanently%20delete%20my%20Isthiri%20ThaTha%20account%20and%20all%20associated%20data.%0A%0ARegistered%20Phone%20Number%3A%20%0ARegistered%20Name%3A%20%0ARegistered%20Email%20(if%20any)%3A%20%0A%0AThank%20you." 
+        class="btn-delete"
+      >
+        ✉️ Submit Account Deletion Request
+      </a>
+      <p style="font-size: 12px; color: var(--text-muted); margin-top: 10px;">
+        Or write to: <strong>isthirithatha11@gmail.com</strong>
+      </p>
+    </div>
+
+    <div class="info-box">
+      <strong>Processing Timeline:</strong> Verified deletion requests are processed within <strong>7 to 14 business days</strong> (and within a maximum period of 30 days as required by law). You will receive an email or SMS confirmation once the deletion is finalized.
+    </div>
+
+    <h2>2. What Data Is Permanently Deleted</h2>
+    <p>Upon verifying your request, we immediately delete:</p>
+    <ul>
+      <li><strong>Profile Information:</strong> Full name, mobile phone number, email address, and authentication credentials.</li>
+      <li><strong>Address Book:</strong> All saved pickup and delivery addresses, postal codes, and GPS location coordinates.</li>
+      <li><strong>Device Tokens:</strong> Firebase Cloud Messaging (FCM) push notification tokens and preferences.</li>
+      <li><strong>Support Logs:</strong> Direct customer support chats and inquiries tied to your personal identity.</li>
+    </ul>
+
+    <h2>3. Order Records & Data Retention Disclosure</h2>
+    <p>
+      In accordance with applicable taxation, commercial, and financial regulations in India:
+    </p>
+    <ul>
+      <li>
+        <strong>Transaction & Delivery Invoices:</strong> Historical completed order logs, dates, and amounts (Cash on Delivery receipts) are retained for up to <strong>180 days</strong> solely for accounting, tax auditing, dispute resolution, and fraud prevention purposes.
+      </li>
+      <li>
+        <strong>Permanent Anonymization:</strong> Once the 180-day financial retention period expires, all order history is completely anonymized and all remaining customer identifiers are irreversibly purged.
+      </li>
+    </ul>
+
+    <h2>4. Cancelling a Deletion Request</h2>
+    <p>
+      If you submitted a deletion request by mistake, you can cancel it within 48 hours by replying to your confirmation email or contacting us directly at <a href="mailto:isthirithatha11@gmail.com">isthirithatha11@gmail.com</a>.
+    </p>
+
+    <div class="contact-box">
+      <strong>Contact Our Support Team:</strong><br>
+      Email: <a href="mailto:isthirithatha11@gmail.com">isthirithatha11@gmail.com</a><br>
+      Phone / WhatsApp: +91 93618 72943<br>
+      Location: Erode, Tamil Nadu, India.
+    </div>
+  </div>
+</body>
+</html>
