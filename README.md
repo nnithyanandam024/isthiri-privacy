@@ -8,5 +8,5 @@ Official Privacy Policy and web portal for the **Isthiri ThaTha** Android applic
 
 ## Contact & Operations
 - **Email:** isthirithatha11@gmail.com
-- **Phone / WhatsApp:** +91 93618 72943
-- **Location:** Erode, Tamil Nadu, India
+- **Phone / WhatsApp:** +91 7339043336
+- **Location:** D. No. 1/118/17, Periyar Nagar, Komarapalayam, Tamil Nadu - 638183
